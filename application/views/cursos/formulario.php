@@ -1,7 +1,7 @@
-<?= form_open('/codigofacilito/recibirdatos') ?>
+<?= form_open('/cursos/recibirdatos') ?>
 
 <?php
-   $nomre = array(
+   $nombre = array(
        'name' => 'nombre',
        'placeholder' => 'Escribe tu nombre'
    );
@@ -14,7 +14,7 @@
 ?>
 <label>
     Nombre :
-    <?= form_input($nomre) ?>
+    <?= form_input($nombre) ?>
 </label>
 <br><br>
 <label>
